@@ -1,0 +1,22 @@
+@use './variables.scss' as *;
+
+html,
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	min-height: calc(100dvh - $headerheight);
+	background: #393939;
+}
+
+.wrapper {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
